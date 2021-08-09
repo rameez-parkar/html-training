@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rameez Parkar</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <ul class="nav-list">
+                    <li>
+                      <a href="#welcome-section">About</a>
+                    </li>
+                    <li>
+                      <a href="#work-experience">Work</a>
+                    </li>
+                    <li>
+                      <a href="#education">Education</a>
+                    </li>
+                    <li>
+                      <a href="#contact-me">Contact Me</a>
+                    </li>
+                  </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="welcome-section" class="welcome-section">
+                <img src="profilepic.png" width="300px" height="500px" alt="Rameez Parkar"></img>
+                <div>
+                    <h1>Hey I'm Rameez</h1>
+                    <p><i>a software engineer</i></p>
+                </div>
+            </section>
+            <section id="work-experience" class="work-experience">
+                <div class="experience-container">
+                    <h2>Tavisca, a cxLoyalty company</h2>
+                    <p>July 2019 - July 2021</p>
+                    <ul>
+                        <li>
+                            Travel Platform - ORXe 3 Hotels
+                            <ul>
+                                <li>Worked on design and development of the new and updated frontend architecture for the Hotel product.</li>
+                                <li>Used frameworks like Angular, NGRX and Lit for the implementation and followed best practices to ensure ADA compliance.</li>
+                                <li>Incorporated concepts like microservices and micro-templates to simplify customizations.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Content Service Migration to .NET Core
+                            <ul>
+                                <li>Worked on migration of Hotel content service from .NET Framework paltform to .NET Core and was also actively involved in various performance runs post migration.</li>
+                                <li>This migartion allowed content service to use the Kubernetes infrastructure that helped reduce costs by more than 3 times.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="experience-container">
+                    <h2>GoKloud Software Solutions</h2>
+                    <p>July 2021 - Present</p>
+                    <ul>
+                        <li>
+                            EdTech Platform - Mighty Me
+                            <ul>
+                                <li>Worked on design and development of the frontend architecture for the scholarship module of the EdTech Platform called Mighty Me.</li>
+                                <li>It included creating the signin/registration, dashboard and schedule test sections.</li>
+                                <li>Used frameworks like Angular for the implementation and followed best practices to ensure ADA compliance.</li>
+                                <li>Incorporated concepts like microservices and micro-templates to simplify customizations.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="education" class="education">
+                <table>
+                    <thead>
+                        <caption>Education Details</caption>
+                        <tr>
+                            <th>Qualification</th>
+                            <th>Name of Institute</th>
+                            <th>Year of Passing</th>
+                            <th>CGPA/Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>B.E.</td>
+                            <td>M.E.S. College of Engineering, Pune</td>
+                            <td>2019</td>
+                            <td>8.07</td>
+                        </tr>
+                        <tr>
+                            <td>H.S.C</td>
+                            <td>St. Vincent's Junior College, Pune</td>
+                            <td>2015</td>
+                            <td>78.46%</td>
+                        </tr>
+                        <tr>
+                            <td>S.S.C.</td>
+                            <td>St. Joseph's Boys High School, Pune</td>
+                            <td>2013</td>
+                            <td>90.00%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="contact-me" class="contact-me">
+                <form action="#welcome-section">
+                    <h2>Please provide your details so that we can reach out to you.</h2>
+                    <div class="input-block">
+                        <label for="name" class="main-label-font">Name</label>
+                        <input type="text" id="name" />
+                    </div>
+                    <div class="input-block">
+                        <label for="email" class="main-label-font">Email</label>
+                        <input type="email" id="email" />
+                    </div>
+                    <div class="input-block">
+                        <label for="phone" class="main-label-font">Contact Number</label>
+                        <input type="text" id="phone"  minlength="10" maxlength="10" />
+                    </div>
+                    <div class="input-block">
+                        <label for="qualification" class="main-label-font">Highest Qualification</label>
+                        <select id="qualification" name="qualification">
+                            <option value="masters">Master's degree</option>
+                            <option value="bachelors">Bachelor's degree</option>
+                            <option value="high_school">High School degree</option>
+                            <option value="primary_school">Primary School degree</option>
+                        </select>
+                    </div>
+                    <div class="input-block">
+                        <label class="main-label-font">Gender</label>
+                        <div>
+                            <input type="radio" id="gender" value="male" name="gender" />
+                            <label for="gender" class="label-value-font">Male</label>
+                            <input type="radio" id="gender" value="female" name="gender" />
+                            <label for="gender" class="label-value-font">Female</label>
+                            <input type="radio" id="gender" value="other" name="gender" />
+                            <label for="gender" class="label-value-font">Prefer not to specify</label>
+                        </div>
+                    </div>
+                    <div class="input-block">
+                        <label class="main-label-font">Preferred Skills</label>
+                        <div>
+                            <input type="checkbox" id="javascript" name="skills" value="javascript">
+                            <label for="javascript" class="label-value-font">Javascript</label>
+                            <input type="checkbox" id="angular" name="skills" value="angular">
+                            <label for="angular" class="label-value-font">Angular</label>
+                            <input type="checkbox" id="react" name="skills" value="react">
+                            <label for="react" class="label-value-font">React</label>
+                            <input type="checkbox" id="java" name="skills" value="java">
+                            <label for="java" class="label-value-font">Java</label>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <input type="submit" class="submit-btn" value="Submit">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <nav class="nav-bar">
+                <ul class="nav-list">
+                    <li>
+                      <a href="https://github.com/rameez-parkar" target="_blank">Github</a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/rameez-parkar-60632033/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">+91 8380910769</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">rameezparkar21@gmail.com</a>
+                    </li>
+                  </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
