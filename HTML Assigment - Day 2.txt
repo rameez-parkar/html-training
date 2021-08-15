@@ -1,0 +1,15 @@
+Continue with yesterday's implementation of the portfolio.
+
+Add a 'Contact me' link and 'Youtube video' link on the navigation bar.
+
+In the contact me section, create a form which includes the following:
+
+	- Name
+	- email
+	- contact number - should only accept 10 inputs
+	- Highest qualification - should be a dropdown
+	- Gender - should be radio options
+	- preferred skills - should be a checkbox
+	- submit button - on clicking submit button either a new html page should open or should scroll to welcome/about section
+	
+In the youtube video section, embed a link to youtube video using iframes
